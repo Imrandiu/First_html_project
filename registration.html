@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+	</head>
+	<body> 
+        <div id="main">
+            <img src="varsity.jpg" height="100px" width="100%"/>
+            <div id="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="registration.html">Registration</a>
+                <a href="Members.html">Contact</a>
+                <a href="service.html">Service</a>
+            </div>
+            <h1>Daffodil International University</h1>
+            <div id="form1">
+                <div id="form2">Registration form</div>
+                    <form method="post" action="list.php">
+                        <b>Name</b>
+                        <input type="text" name="name" placeholder="input your name"/>
+                        <br><br>
+                        <b>email</b>
+                        <input type="email" name="email"/>
+                        <br><br>
+                        <b>password</b>
+                        <input type="password" name="password"/>
+                        <br><br>
+                        <b>Address</b><br>
+                        <textarea name="address" rows="6" cols="40"></textarea>
+                        <br><br>
+                        <b>Gender</b>
+                        <input type="radio" value="male" name="gender"/>Male
+                        <input type="radio" value="female" name="gender"/>Female
+                        <br><br>
+                        <b>Division</b>
+                        <select>
+                            <option>--Select Division--</option>
+                                <option>Dhaka</option>
+                                <option>Rongpur</option>
+                                <option>Rajshahi</option>
+                                <option>Dinajpur</option>
+                        </select>
+                        <br><br>
+                        <b>Subject</b>
+                        <input type="checkbox" name="subject" value="English"/>English
+                        <input type="checkbox" name="subject" value="Bangla"/>Bangla
+                        <input type="checkbox" name="subject" value="Other"/>Other
+                        <br><br>
+                        <b>Upload image</b>
+                        <input type="file"/>
+                        <br><hr><br>
+                        <input id="submit" type="submit" value="Sign-up"/>
+                    </form>
+                </div>	
+        </div>
+	</body>
+	<footer>
+		
+	</footer>
+</html>
